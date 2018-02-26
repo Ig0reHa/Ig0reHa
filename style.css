@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Hammersmith+One|Playfair+Display:900|Roboto:100,400');
+
+html, body, header, #intro, #intro1 {
+	height: 100%;
+}
+
+#intro {
+	background: url("../img/home/1bgimg.png") no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-ms-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#tajamlogo {
+	background-image: linear-gradient(to right, #00e0d0 0%, #4aa3cc 100%);
+	-webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+	color: #fff;
+	font-family: "Roboto";
+	font-size: 30px;
+	font-weight: 300;
+}
+
+.navbrand {
+	margin-bottom: -10px;
+}
+
+.nav-item a {
+	color: #ffffff;
+	font-family: "Roboto";
+	font-size: 13px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #00e0d0;
+	letter-spacing: 0.33px;
+}
+
+.top-nav-collapse {
+	background-color: #3E3161;
+}
+
+.h3nav {
+	color: #ffffff;
+	font-family: "Playfair Display";
+	font-size: 40px;
+	font-weight: 900;
+	letter-spacing: 0.32px;
+}
+
+.separator {
+	width: 50px;
+	height: 1px;
+	background-color: #00e0d0;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.buttonmain {
+	width: 120px;
+	height: 40px;
+	border: 2px solid #00e0d0;
+	background-color: inherit;
+}
+
+.spanmain {
+	color: #00e0d0;
+	font-family: "Hammersmith One";
+	font-size: 16px;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.buttonstory {
+		margin-left: 40px;
+	}
+}
+
+#our_story {
+	margin-top: 70px;
+	margin-bottom: 70px;
+}
+
+#intro1 {
+	background: url("../img/home/city.png") no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-ms-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 550px;
+}
+
+.watch_our_story_text {
+	color: #ffffff;
+	font-family: "Roboto";
+	font-size: 16px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 0.8px;
+}
+
+@media (max-width: 767px) {
+	.imgstory {
+		margin-bottom: 30px;
+	}
+
+	#our_story {
+		margin-top: 30px;
+		margin-bottom: 40px;
+	}
+}
+
