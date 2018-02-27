@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Hammersmith+One|Playfair+Display:900|Roboto:100,400');
+@import url('https://fonts.googleapis.com/css?family=Hammersmith+One|Playfair+Display:400,700|Roboto:100,400');
 
 html, body, header, #intro, #intro1 {
 	height: 100%;
@@ -114,3 +114,72 @@ html, body, header, #intro, #intro1 {
 	}
 }
 
+
+.ex_sepataror {
+	width: 50px;
+	height: 2px;
+	background-color: #413d4b;
+	opacity: 0.3;
+}
+
+.h3_EXPERTISE {
+	color: #413d4b;
+	font-family: "Playfair Display";
+	font-size: 22px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 1.1px;
+}
+
+.p_EXPERTISE {
+	opacity: 0.75;
+	color: #2f2d35;
+	font-family: "Playfair Display";
+	font-size: 14px;
+	font-weight: 100;
+	letter-spacing: 1.05px;
+}
+
+.p_header {
+	color: #413d4b;
+	font-family: "Roboto";
+	font-size: 14px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 0.7px;
+}
+
+.p_paragraph {
+	opacity: 0.85;
+	color: #333333;
+	font-family: "Roboto";
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 22px;
+	letter-spacing: 0.7px;
+}
+
+.laptop, .mobile {
+	border-bottom: 1px solid #ededed;
+}
+
+.brush {
+	border-left: 1px solid #ededed;
+	border-bottom: 1px solid #ededed;
+	border-right: 1px solid #ededed;
+}
+
+.game {
+	border-left: 1px solid #ededed;
+	border-right: 1px solid #ededed;
+}
+
+.exp_img {
+	height: 50px;
+}
+
+@media (max-width: 767px) {
+	.laptop, .mobile, .game, .brush {
+		border: none;
+	}
+}
