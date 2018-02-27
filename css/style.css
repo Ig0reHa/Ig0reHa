@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Hammersmith+One|Playfair+Display:400,700|Roboto:100,400');
 
-html, body, header, #intro, #intro1 {
+html, body, header, #intro, #intro1, #intro2 {
 	height: 100%;
 }
 
@@ -182,4 +182,78 @@ html, body, header, #intro, #intro1 {
 	.laptop, .mobile, .game, .brush {
 		border: none;
 	}
+}
+
+.MEET_OUR_TEAM {
+	background: url("../img/home/trees1.png") no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-ms-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.h3_TEAM {
+	color: #ffffff;
+	font-family: "Playfair Display";
+	font-size: 22px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 1.1px;
+}
+
+.p_TEAM {
+	color: #f9f9f9;
+	font-family: "Playfair Display";
+	font-size: 14px;
+	font-weight: 400;
+	letter-spacing: 1.05px;
+}
+
+.TEAM_sepataror {
+	width: 50px;
+	height: 2px;
+	background-color: #ffffff;
+	opacity: 0.2;
+}
+
+.mbottomp {
+	margin-bottom: -30px;
+}
+
+.p_team_img {
+	color: #ffffff;
+	font-family: "Roboto";
+	font-size: 14px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 0.7px;
+}
+
+.span_team_img {
+	opacity: 0.7;
+	color: #fafafa;
+	font-family: "Roboto";
+	font-size: 13px;
+	font-weight: 300;
+	text-transform: uppercase;
+}
+
+.buttonmain1 {
+	width: 140px;
+	height: 40px;
+	border: 2px solid #00e0d0;
+	background-color: inherit;
+}
+
+.p_our_team {
+	color: #f3f3f3;
+	font-family: "Roboto";
+	font-size: 14px;
+	font-weight: 400;
+	letter-spacing: 0.7px;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	
 }
